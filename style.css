@@ -1,8 +1,8 @@
 .square{
     height: 40px;
     width: 40px;
-    background-color: black;
-    border-color:black;
+    background-color: white;
+    border-color:white;
     border-style:solid;
     display: inline-block;
     box-sizing: border-box;
@@ -12,4 +12,15 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 500ms;
+}
+#coloringboard{
+    border-color: black;
+    border-style: solid;
+    flex-direction: column;
+    gap:0px;
+}
+.gridrow{
+    height:40px;
+    box-sizing: border-box;
 }
